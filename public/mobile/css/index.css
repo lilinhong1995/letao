@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+.clearfix::after {
+  display: block;
+  content: "";
+  height: 0;
+  line-height: 0;
+  clear: both;
+}
+header {
+  width: 100%;
+  height: 45px;
+  background-color: skyblue;
+  text-align: center;
+  padding: 13.5px 10px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+header h4 {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+header span {
+  color: #fff;
+}
+.header {
+  width: 100%;
+  height: 45px;
+}
+main .lt_img_nav-1 ul {
+  margin-bottom: 5px;
+}
+main .lt_img_nav-1 ul li {
+  float: left;
+  width: 33.33%;
+}
+main .lt_img_nav-2 ul {
+  border-top: 1px solid #000;
+}
+main .lt_img_nav-2 ul li {
+  float: left;
+  width: 33.5%;
+}
+main .lt_img_nav-2 ul li:nth-child(3) {
+  width: 33%;
+  float: right;
+}
+main .lt_icon_nav ul li {
+  float: left;
+  width: 25%;
+}
+.lt_goods li {
+  width: 50%;
+  text-align: center;
+  float: left;
+  padding: 0px 5px 10px;
+}
+.lt_goods li .li_main {
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.lt_goods li .li_main a p {
+  margin: 0;
+}
+.lt_goods li .li_main a span {
+  font-size: 14px;
+  padding: 5px 0;
+}
+.lt_goods li .li_main a span:first-child {
+  color: red;
+}
+.lt_goods li .li_main a span:last-child {
+  text-decoration: line-through;
+}
+.lt_goods li .li_main > span {
+  border-radius: 3px;
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  background-color: skyblue;
+  margin-bottom: 10px;
+}
+.footer {
+  width: 100%;
+  height: 50px;
+}
+footer {
+  z-index: 100;
+  width: 100%;
+  height: 50px;
+  background-color: skyblue;
+  position: fixed;
+  bottom: 0;
+  padding-top: 5px;
+}
+footer ul li {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+footer ul li a {
+  display: inline-block;
+  margin: 0;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+}
+footer ul li span {
+  font-size: 20px !important;
+}
+footer ul li p {
+  color: inherit;
+  margin: 0;
+}

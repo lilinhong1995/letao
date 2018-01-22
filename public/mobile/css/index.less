@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    height: 0;
+    line-height: 0;
+    clear: both;
+}
+
+@font_color : skyblue;
+// 头部搜索栏
+header {
+    width: 100%;
+    height: 45px;
+    background-color: @font_color;
+    text-align: center;
+    padding: 13.5px 10px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    h4 {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+    span {
+        color: #fff;
+    }
+}
+.header {
+    width: 100%;
+    height: 45px;
+}
+// 中部主体内容
+main {
+
+    // 轮播图 
+    .lt_carousel {}
+    .lt_img_nav-1 {
+        ul {
+            li {
+                float: left;
+                width: 33.33%;
+            }
+            margin-bottom: 5px;
+        }
+    }
+    .lt_img_nav-2 {
+        ul {
+            border-top: 1px solid #000;
+            li {
+                float: left;
+                width: 33.5%;
+            }
+            li:nth-child(3) {
+                width: 33%;
+                float: right;
+            }
+        }
+    }
+    .lt_icon_nav {
+        ul {
+            li {
+                float: left;
+                width: 25%;
+            }
+        }
+    }
+}
+
+// 商品栏
+.lt_goods {
+    li {
+        width: 50%;
+        text-align: center;
+        float: left;
+        padding: 0px 5px 10px;
+        .li_main {
+            border: 1px solid #ccc;
+            background-color: #fff;
+            a {
+                p {
+                    margin: 0;
+                }
+                span {
+                    font-size: 14px;
+                    padding: 5px 0;
+                }
+                span:first-child {
+                    color: red;
+                }
+                span:last-child {
+                    text-decoration: line-through;
+                }
+            }
+            >span {
+                border-radius: 3px;
+                display: inline-block;
+                text-align: center;
+                padding: 5px;
+                background-color: @font_color;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+// 尾部导航栏
+.footer {
+    width: 100%;
+    height: 50px;
+}
+
+footer {
+    z-index: 100;
+    width: 100%;
+    height: 50px;
+    background-color: @font_color;
+    position: fixed;
+    bottom: 0;
+    padding-top: 5px;
+    ul {
+        li {
+            width: 25%;
+            float: left;
+            text-align: center;
+            a {
+                display: inline-block;
+                margin: 0;
+                height: 100%;
+                color: #fff;
+                text-align: center;
+            }
+            span {
+                font-size: 20px !important;
+            }
+            p {
+                color: inherit;
+                margin: 0;
+            }
+        }
+    }
+}
