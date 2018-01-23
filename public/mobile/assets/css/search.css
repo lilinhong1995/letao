@@ -1,0 +1,66 @@
+body {
+  background-color: #fff;
+}
+.lt_search_view header {
+  width: 100%;
+  height: 45px;
+  background-color: skyblue;
+  text-align: center;
+  padding: 10px 10px 0;
+  color: #fff;
+}
+.lt_search_view header h4 span {
+  float: left;
+}
+.lt_search_view main {
+  font-size: 14px;
+  color: #666;
+  padding: 10px;
+}
+.lt_search_view main .lt_search {
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.lt_search_view main .lt_search input {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-indent: 1em;
+}
+.lt_search_view main .lt_search button {
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  border-radius: 0px;
+  border: none;
+  float: right;
+  background-color: skyblue;
+  vertical-align: top;
+}
+.lt_search_view main .lt_on_his a {
+  font-size: 14px;
+  color: #666;
+  float: right;
+}
+.lt_search_view main .lt_on_his a span {
+  font-size: 20px;
+}
+.lt_search_view main .lt_on_his li {
+  border: 1px solid #ccc;
+  height: 30px;
+  text-indent: 1em;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+.lt_search_view main .lt_on_his li span {
+  float: right;
+  color: skyblue;
+  padding-top: 2px;
+  padding-right: 5px;
+  z-index: 99;
+}
